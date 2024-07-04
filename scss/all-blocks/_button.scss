@@ -1,0 +1,34 @@
+.button .btn{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 15px;
+} 
+.button .btn2 {
+    transition: all .5s;
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+}
+.btn2:hover {
+    background-color: black;
+    color: white;
+}  
+.hero__button {
+    cursor: pointer;
+    padding: 18px 35px;
+    border-radius: 10px;
+    color: #fff;
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    border: none;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37.5px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    color: #FF584E;
+    background-color: #FF584E;
+}
