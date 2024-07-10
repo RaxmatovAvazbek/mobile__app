@@ -1,0 +1,63 @@
+.toggle-switch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #333;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.toggle-switch label {
+  display: flex;
+  align-items: center;
+  width: 50px;
+}
+.toggle-switch label input {
+  display: none;
+}
+.toggle-switch label input:checked + .slider {
+  background-color: tomato;
+}
+.toggle-switch label input:checked + .slider:before {
+  transform: translateX(26px);
+}
+.toggle-switch label .slider {
+  position: relative;
+  width: 50px;
+  height: 25px;
+  background-color: #ccc;
+  border-radius: 34px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.toggle-switch label .slider:before {
+  content: "";
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  background-color: white;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.2s;
+}
+
+.menu .menu-item {
+  display: flex;
+  align-items: center;
+  background: #B9B9C9;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.menu .menu-item .icon {
+  margin-right: 10px;
+}
+.menu .menu-item .text .title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #000;
+}
+.menu .menu-item .text .subtitle {
+  color: #000;
+}/*# sourceMappingURL=nastiroykiOnline.css.map */

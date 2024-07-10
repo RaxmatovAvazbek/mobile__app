@@ -19,7 +19,7 @@
       display: none;
 
       &:checked+.slider {
-        background-color: #4caf50;
+        background-color: tomato;
       }
 
       &:checked+.slider:before {

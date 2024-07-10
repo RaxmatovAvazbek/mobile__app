@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap");
+@import url("https://unpkg.com/boxicons@latest/css/boxicons.min.css");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #21212E;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.button .btn {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 15px;
+}
+
+.button .btn2 {
+  transition: all 0.5s;
+  background: transparent;
+  border: 2px solid black;
+  color: black;
+}
+
+.btn2:hover {
+  background-color: black;
+  color: white;
+}
+
+.hero__button {
+  cursor: pointer;
+  padding: 18px 35px;
+  border-radius: 10px;
+  color: #fff;
+  background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+  border: none;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 37.5px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  color: #FF584E;
+  background-color: #FF584E;
+}
+
+.footer {
+  background-color: white;
+  padding: 40px 0;
+}
+.footer .header__container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .header__container .btn {
+  background-color: tomato;
+}
+
+.hero {
+  height: 100vh;
+  background: #1F5E37;
+}
+.hero .hero__container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.hero .hero__container .section__title h2 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 70px;
+  letter-spacing: 9.5%;
+  margin-bottom: 28px;
+}
+.hero .hero__container .section__title p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  color: #fff;
+  opacity: 50%;
+  margin-bottom: 28px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+.nav ul a {
+  text-decoration: none;
+}
+
+.toggle-switch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #333;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.toggle-switch label {
+  display: flex;
+  align-items: center;
+  width: 50px;
+}
+.toggle-switch label input {
+  display: none;
+}
+.toggle-switch label input:checked + .slider {
+  background-color: #1f1f1f;
+  /* background-color:  #9C0A35; */
+}
+.toggle-switch label input:checked + .slider:before {
+  transform: translateX(26px);
+}
+.toggle-switch label .slider {
+  position: relative;
+  width: 50px;
+  height: 25px;
+  background-color: #ccc;
+  border-radius: 34px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.toggle-switch label .slider:before {
+  content: "";
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  background-color: white;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.2s;
+}
+
+.menu .menu-item {
+  display: flex;
+  align-items: center;
+  background: #B9B9C9;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.menu .menu-item .icon {
+  margin-right: 10px;
+}
+.menu .menu-item .text .title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #000;
+}
+.menu .menu-item .text .subtitle {
+  color: #000;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1f1f1f;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.toggle-switch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.toggle-switch label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.toggle-switch label span {
+  flex-grow: 1;
+}
+.toggle-switch label input {
+  display: none;
+}
+.toggle-switch label input:checked + .slider {
+  background-color:  #9C0A35;
+}
+.toggle-switch label input:checked + .slider:before {
+  transform: translateX(26px);
+}
+.toggle-switch label .slider {
+  position: relative;
+  width: 50px;
+  height: 25px;
+  background-color: #ccc;
+  border-radius: 34px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.toggle-switch label .slider:before {
+  content: "";
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  background-color: white;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.2s;
+}
+
+.description {
+  background: #333;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.save-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #e71d36;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+}
+.save-button:hover {
+  background-color: #d81b30;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,36 @@
+.container .head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // margin-bottom: 15px;
+}
+.head .bx-chevron-left {
+    font-size: 25px;
+}
+.head h1 {
+    font-size: 30px;
+}
+.toggle-switch {
+    background-color: transparent;
+}
+.toggle-switch span {
+    font-size: 15px;
+}
+.menu-item {
+    width: 100%;
+}
+.menu .menu-item {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-item .calendar i  {
+    color: #9C0A35;
+    font-size: 24px;
+}
+.menu-item .text {
+    flex-grow: 1;
+}
+.chevron i {
+    font-size: 24px;
+    color: #4F4F4F;
+}
