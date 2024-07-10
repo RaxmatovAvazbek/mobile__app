@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #1e1e2f;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.header .welcome {
+  font-size: 24px;
+  margin: 10px 0;
+}
+.header .profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header .profile .profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.header .profile .name {
+  font-size: 18px;
+}
+
+.main-content {
+  text-align: center;
+  max-width: 400px;
+}
+.main-content .instruction {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: rgb(79, 79, 79);
+  background-color: rgb(185, 185, 201);
+  padding: 20px;
+  border-radius: 20px;
+}
+.main-content .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.main-content .buttons .button {
+  background-color: #3e3e4f;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100px;
+  text-align: center;
+}
+.main-content .buttons .button .icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.main-content .buttons .button p {
+  margin: 0;
+  font-size: 14px;
+  color: #bbb;
+}/*# sourceMappingURL=nastiroyki online6.css.map */
