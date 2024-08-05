@@ -1,0 +1,164 @@
+body {
+  background-color: #1c1c1e;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333;
+}
+
+.back-button {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.content {
+  margin-top: 20px;
+  flex: 1;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-right: 5px;
+}
+
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #ff3b30;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.dropdown-container {
+  background-color: #2c2c2e;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.dropdown-container label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.dropdown-container select {
+  width: 100%;
+  padding: 10px;
+  background-color: #3c3c3e;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.message-template {
+  background-color: #2c2c2e;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.message-template label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.message-template textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #3c3c3e;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  height: 150px;
+  resize: none;
+}
+
+footer {
+  padding-top: 20px;
+  border-top: 1px solid #333;
+}
+
+.save-button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #505050;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: #707070;
+}/*# sourceMappingURL=nastiroyki online7.css.map */

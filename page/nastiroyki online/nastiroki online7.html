@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Напоминание о записи</title>
+    <link rel="stylesheet" href="/css/nastiroyki online7.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#" class="back-button">&larr;</a>
+            <h1>Напоминание о записи</h1>
+        </header>
+        <section class="content">
+            <p>Отправка сообщений клиенту перед сеансом</p>
+            <div class="toggle-container">
+                <label class="toggle">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+                <span>Отправлять напоминание о записи клиенту</span>
+            </div>
+            <div class="dropdown-container">
+                <label for="time-select">Перед сеансом</label>
+                <select id="time-select">
+                    <option value="0">0 час. 0 мин.</option>
+                    <option value="0">0 час. 0 мин.</option>
+                    <option value="0">0 час. 0 мин.</option>
+                    <option value="0">0 час. 0 мин.</option>
+                </select>
+            </div>
+            <div class="message-template">
+                <label>Шаблон сообщения</label>
+                <div>
+                    Привет!
+
+                    Напоминаю, что вы записаны ко мне на сеанс:
+                    Дата - (дата сеанса)
+                    Время - (время сеанса)
+                    Услуга - (процедура)
+                    Адрес - (адрес)
+
+                    С Уважением, Ваш мастер Натали, очень жду Вас!
+                </div>
+            </div>
+        </section>
+        <footer>
+            <button class="save-button">Сохранить</button>
+        </footer>
+    </div>
+</body>
+</html>

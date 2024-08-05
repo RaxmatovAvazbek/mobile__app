@@ -113,12 +113,6 @@ body {
   text-decoration: none;
 }
 
-.box-head {
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 1.5em;
-}
-
 .toggle-switch {
   display: flex;
   align-items: center;
@@ -137,7 +131,8 @@ body {
   display: none;
 }
 .toggle-switch label input:checked + .slider {
-  background-color: #4caf50;
+  background-color: #1f1f1f;
+  /* background-color:  #9C0A35; */
 }
 .toggle-switch label input:checked + .slider:before {
   transform: translateX(26px);
@@ -225,7 +220,7 @@ body {
   display: none;
 }
 .toggle-switch label input:checked + .slider {
-  background-color: #4caf50;
+  background-color:  #9C0A35;
 }
 .toggle-switch label input:checked + .slider:before {
   transform: translateX(26px);
@@ -273,6 +268,4 @@ body {
 }
 .save-button:hover {
   background-color: #d81b30;
-}
-
-@im;/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
